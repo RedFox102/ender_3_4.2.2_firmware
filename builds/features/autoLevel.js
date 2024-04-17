@@ -14,7 +14,12 @@ module.exports = {
 
             //M48 test
             "Z_MIN_PROBE_REPEATABILITY_TEST"
-        ],
+
+            // Stepper drivers
+            ["X_DRIVER_TYPE", "TMC2208_STANDALONE"],
+            ["Y_DRIVER_TYPE", "TMC2208_STANDALONE"],
+            ["Z_DRIVER_TYPE", "TMC2208_STANDALONE"],
+            ["E0_DRIVER_TYPE", "TMC2208_STANDALONE"]],
         disable: [
             "Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN"
         ]
