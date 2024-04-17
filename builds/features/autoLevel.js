@@ -16,10 +16,10 @@ module.exports = {
             "Z_MIN_PROBE_REPEATABILITY_TEST"
 
             // Stepper drivers
-            ["X_DRIVER_TYPE", "TMC2209"],
-            ["Y_DRIVER_TYPE", "TMC2209"],
-            ["Z_DRIVER_TYPE", "TMC2209"],
-            ["E0_DRIVER_TYPE", "TMC2209"]
+            ["X_DRIVER_TYPE", q`TMC2208`],
+            ["Y_DRIVER_TYPE", q`TMC2208`],
+            ["Z_DRIVER_TYPE", q`TMC2208`],
+            ["E0_DRIVER_TYPE", q`TMC2208`]
         ],    
             
         disable: [
