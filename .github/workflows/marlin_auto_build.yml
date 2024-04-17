@@ -5,10 +5,10 @@ on:
     paths:
       - 'builds/**'
   schedule:
-    - cron:  '30 3 * * *'
+    - cron: '8 18 * * *'
 
 jobs:
   create_builds:
     runs-on: ubuntu-latest 
     steps:
-    - uses: zisismaras/marlin_auto_build@master
+      - uses: zisismaras/marlin_auto_build@master
