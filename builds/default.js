@@ -6,7 +6,7 @@ module.exports = {
         nightly_name: "ender_3_4.2.2-{{current_date}}-default-{{uid}}"
     },
     based_on: {
-        repo: "https://github.com/MarlinFirmware/Configurations/",
+        repo: "https://github.com/RedFox102/Configurations",
         path: "/config/examples/Creality/Ender-3/CrealityV422/",
         stable_branch: "release-{{marlin_version}}",
         nightly_branch: "bugfix-2.1.x"
